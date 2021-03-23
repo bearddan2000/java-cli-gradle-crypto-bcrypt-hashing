@@ -1,0 +1,12 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  implementation 'org.mindrot:jbcrypt:0.4'
+}
+
+mainClassName = 'example.Main'
